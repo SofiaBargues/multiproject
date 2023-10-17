@@ -40,7 +40,7 @@ export default function Memotest() {
         gap: 24,
       }}
     >
-      {IMAGES.map((image, index) => {
+      {IMAGES.map((image) => {
         const [, url] = image.split("|");
 
         return (
