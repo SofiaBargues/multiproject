@@ -74,7 +74,7 @@ export default function Pokemon() {
         </button>
       ) : (
         <form onSubmit={handleSubmit}>
-          <input type="text" name="pokemon" />
+          <input autoFocus type="text" name="pokemon" />
           <button type="submit">Submit</button>
         </form>
       )}
